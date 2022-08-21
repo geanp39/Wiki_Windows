@@ -1,0 +1,20 @@
+#Ver Informações do Sistema
+System Info
+
+#Listar Usuarios 
+net user
+
+#ver informaçoes do usuario
+net user usuario
+
+#criar usuario
+net user name pass /add
+
+#adicionar usuario a um grupo
+net localgroup usuario grupo /add
+
+#ver informações da sessão logada
+query user
+
+#listar servicos de inicialização
+reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
