@@ -13,3 +13,6 @@ net start "Termservice"
 netsh advfirewall set currentprofile state on
 
 netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
+
+#xfreerdp /u:speaker /v:192.168.216.121 /cert-ignore /p:"S3cur!ty"
+
